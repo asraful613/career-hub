@@ -28,7 +28,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-accent">Apply Now</a>
+    <a className="btn btn-accent rounded-2xl">Apply Now</a>
   </div>
 </div>
         </div>

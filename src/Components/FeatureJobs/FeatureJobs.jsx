@@ -13,9 +13,9 @@ const FeatureJobs = () => {
     },[])
     return (
         <div>
-            <div className="text-center">
-                <h2 className="text-5xl font-bold">Feature Jobs :   {jobs.length}</h2>
-                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            <div className="text-center my-5">
+                <h2 className=" mb-3 text-5xl font-bold">Feature Jobs :   {jobs.length}</h2>
+                <p className="italic">Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
             <div className="grid grid-cols-2 gap-6">
                 {
