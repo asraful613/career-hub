@@ -1,9 +1,7 @@
-import { json } from "react-router-dom";
-
 const getStoredJobApplication= ()=>{
     const storedJobApplication=localStorage.getItem('job-applications');
     if(storedJobApplication){
-        return json.parse(storedJobApplication)
+        return JSON.parse(storedJobApplication)
     }
     return [];
 }
