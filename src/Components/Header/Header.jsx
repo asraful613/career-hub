@@ -28,7 +28,8 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn btn-accent rounded-2xl">Apply Now</a>
+    <img className="w-10 lg:hidden rounded-3xl" src="/src/assets/images/366068331_1255316221829709_7767482365841208902_n.jpg" alt="" />
+    <a className="btn btn-accent hidden lg:flex rounded-2xl">Apply Now</a>
   </div>
 </div>
         </div>
